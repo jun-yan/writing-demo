@@ -1,6 +1,7 @@
 \documentclass[12pt]{article}
 
 %% preamble
+\usepackage{amsmath}
 \usepackage[margin = 1in]{geometry}
 
 
@@ -43,7 +44,21 @@ Use this section to describe the data that helps to answer your research questio
 \section{Methods}
 \label{sec:meth}
 
-Use this section to present the methodologies that will generate results by analyzing the data.
+Use this section to present the methodologies that will generate results by
+analyzing the data. Suppose that the radius of a circle is $r$. Then its area is
+\begin{equation}
+  \label{eq:area}
+  \pi r^2.
+\end{equation}
+
+Equation~\eqref{eq:area} is something silly.
+
+Sometimes I don't want an equation to be numbered such as this one:
+\[
+  f(x) = \frac{1}{\sqrt{2\pi}} \exp\left( - \frac{x^2}{2} \right),
+\]
+which is the density of a standard normal variable.
+
 
 \section{Results}
 \label{sec:results}
