@@ -1,10 +1,12 @@
 \documentclass[12pt]{article}
 
-%% preambleb
+%% preamble: Keep it clean; only include those you need
 \usepackage{amsmath}
 \usepackage[margin = 1in]{geometry}
 \usepackage{graphicx}
-
+\usepackage{booktabs}
+% for space filling
+\usepackage{lipsum}
 
 %% meta data
 
@@ -51,7 +53,7 @@ analyzing the data. Suppose that the radius of a circle is $r$. Then its area is
   \pi r^2.
 \end{equation}
 
-Equation~\eqref{eq:area} is something silly.
+Equation~\eqref{eq:area} is interesting. \lipsum[1-4]
 
 Sometimes I don't want an equation to be numbered such as this one:
 \[
@@ -60,12 +62,14 @@ Sometimes I don't want an equation to be numbered such as this one:
 which is the density of a standard normal variable.
 
 
+
 \section{Results}
 \label{sec:results}
 
 Table~\ref{tab:rv} summarizes some example draws from some distributions.
+\lipsum[1-4]
 
-\begin{table}[ht]
+\begin{table}[tbp]
   \caption{This is my first table.}
   \label{tab:rv}
 \centering
@@ -90,7 +94,7 @@ normal & poisson & gamma \\
 Figure~\ref{fig:cars} shows the distance against the speed from this dataset.
 
 
-\begin{figure}
+\begin{figure}[tbp]
   \centering
   \includegraphics[width=\textwidth]{cars.pdf}
   \caption{This is my first figure.}
