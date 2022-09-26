@@ -5,6 +5,7 @@
 \usepackage[margin = 1in]{geometry}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{natbib}
 
 % for space filling
 \usepackage{lipsum}
@@ -37,6 +38,15 @@ What has been done on this topic in the literature?
 What is your contribution?
 
 \lipsum[1-3]
+
+To cite a reference, here are examples.
+\citet{xie2015dynamic} did something ... \lipsum[1]
+
+A lot of work has been done \citep[e.g.,][]{xie2015dynamic}.
+\lipsum[2]
+Some parametric bootstrap sample size approach was proposed by
+\citet{dwivedi2017analysis}. 
+
 
 % roadmap
 The rest of the paper is organized as follows.
@@ -126,5 +136,7 @@ What are the limitations of this study?
 
 What are worth pursuing further in the future?
 
+\bibliography{refs}
+\bibliographystyle{chicago}
 
 \end{document}
