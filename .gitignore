@@ -1,0 +1,24 @@
+# about manuscript
+*/*.aux
+*/*.dbj
+*/*.bbl
+*/*.bcf
+*/*.blg
+*/*.idx
+*/*.ind
+*/*.ilg
+*/*.log
+*/*.toc
+*/*.xml
+*/*.zip
+*/*.out
+*/*.swp
+manuscript/*.pdf
+*/*.synctex.gz
+*/*.fff
+*/*.ttt
+*/*.fdb_latexmk
+*/*.fls
+
+*.docx
+.Rhistory
